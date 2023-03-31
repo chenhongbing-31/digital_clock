@@ -1,0 +1,36 @@
+
+chb@LAPTOP-JQO7I6NF MINGW64 ~/Desktop/digital_clock (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/chb/Desktop/digital_clock/.git/
+
+chb@LAPTOP-JQO7I6NF MINGW64 ~/Desktop/digital_clock (main)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+chb@LAPTOP-JQO7I6NF MINGW64 ~/Desktop/digital_clock (main)
+$ git commit -m "digital clock"
+On branch main
+nothing to commit, working tree clean
+
+chb@LAPTOP-JQO7I6NF MINGW64 ~/Desktop/digital_clock (main)
+$ git branch -M main
+
+chb@LAPTOP-JQO7I6NF MINGW64 ~/Desktop/digital_clock (main)
+$ git remote add origin git@github.com:chenhongbing-31/digital_clock.git
+error: remote origin already exists.
+
+chb@LAPTOP-JQO7I6NF MINGW64 ~/Desktop/digital_clock (main)
+$ git push -u origin main
+Enumerating objects: 402, done.
+Counting objects: 100% (402/402), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (383/383), done.
+Writing objects: 100% (402/402), 49.97 MiB | 838.00 KiB/s, done.
+Total 402 (delta 60), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (60/60), done.
+To github.com:chenhongbing-31/digital_clock.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+chb@LAPTOP-JQO7I6NF MINGW64 ~/Desktop/digital_clock (main)
+$

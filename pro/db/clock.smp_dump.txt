@@ -1,0 +1,11 @@
+
+State Machine - |top|player_itf:inst_player_itf|cnt_addr:inst_cnt_addr|ctrl_cnt_addr:inst_ctrl_cnt_addr|state
+Name state.INST state.SEND_AD state.IDLE 
+state.IDLE 0 0 0 
+state.SEND_AD 0 1 1 
+state.INST 1 0 1 
+
+State Machine - |top|sd_itf:inst_sd_itf|ctrl_sd_itf:inst_ctrl_sd_itf|state2
+Name state2.UPDATA 
+state2.IDLE 0 
+state2.UPDATA 1 
